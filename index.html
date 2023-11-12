@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>CYSH Study Group</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <script src="script.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <h1>CSG</h1>
         <ul class="nav-list">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">組織</a></li>
+            <li><a href="contact.html">聯絡我們</a></li>
         </ul>
     </nav>
 
@@ -20,25 +25,130 @@
         並追蹤 <a href="https://bit.ly/3EXlYxI" target="_blank">Instagram 帳號</a>!!
     </p>
 
+    
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 8</div>
+            <img src="gallery/1.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 8</div>
+            <img src="gallery/2.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 8</div>
+            <img src="gallery/3.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 8</div>
+            <img src="gallery/4.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 8</div>
+            <img src="gallery/5.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 8</div>
+            <img src="gallery/6.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+            <div class="numbertext">7 / 8</div>
+              <img src="gallery/7.png" style="width:100%">
+          </div>
+          
+        <div class="mySlides">
+            <div class="numbertext">8 / 8</div>
+              <img src="gallery/8.png" style="width:100%">
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="gallery/1.png" style="width:100%" onclick="currentSlide(1)" alt="嘉義高中讀書會總覽">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/2.png" style="width:100%" onclick="currentSlide(2)" alt="假日基礎 Python 線上讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/3.png" style="width:100%" onclick="currentSlide(3)" alt="物理讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/4.png" style="width:100%" onclick="currentSlide(4)" alt="物辯讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/5.png" style="width:100%" onclick="currentSlide(5)" alt="化學讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/6.png" style="width:100%" onclick="currentSlide(6)" alt="數學讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/7.png" style="width:100%" onclick="currentSlide(7)" alt="生物讀書會">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="gallery/8.png" style="width:100%" onclick="currentSlide(8)" alt="學術討論熱烈的 Discord 伺服器">
+          </div>
+        </div>
+    </div>
+
+
+    <h2>讀書會</h2>
+    <ul>
+        <li><span style="font-weight: bold;">週一化學：</span>由學競選手與科學班同學傳授有機化學知識</li>
+        <li><span style="font-weight: bold;">週二物辯：</span>討論並研究 2024 TYPT 選題，組隊參加比賽</li>
+        <li><span style="font-weight: bold;">週三數學：</span>在兩位老師的帶領下由學生設計並講授競賽題</li>
+        <li><span style="font-weight: bold;">週四生物：</span>直攻大學課程，為生奧做準備</li>
+        <li><span style="font-weight: bold;">週五物理：</span>以物奧為目標，學習超越高中的物理概念</li>
+        <li><span style="font-weight: bold;">線上讀書會：</span>由同學擔任講師，於假日分享程式、軟體使用、語言學習等知識</li>
+    </ul>
+    
     <h2>組織</h2>
-        <li>🤴會長+小編：cyh1368</li>
+        <li>🤴會長+小編：<a href="https://www.instagram.com/cyh_1368" target="_blank">cyh1368</a></li>
         <li>🤴副會+公關：<a href="https://www.instagram.com/cody_best_boi/" target="_blank">cody_best_boi</a></li>
         <li>📚教學：Leo Lin</li>
         <li>🎹客服：<a href="https://www.instagram.com/yianlee2008/" target="_blank">yianlee2008</a> (Know Scratcher)</li>
         <li>🌐 網頁設計：Tomycat</li>
-
-        <li>講師名單</li>
+        
         <ul>
-            <li>[生物] 黃脩睿 黃祈睿 王嗣方</li>
-            <li>[物理] 吳俊緯 何承祐</li>
-            <li>[化學] 劉兆安 林宥呈 王冠叡</li>
-            <li>[數學] 賴柏叡 高恒偉</li>
-            <li>[物辯] 何承祐 黃祈睿</li>
+            <li><span style="font-weight: bold">生物</span> <span>黃脩睿 黃祈睿 王嗣方</span></li>
+            <li><span style="font-weight: bold">物理</span> <span>吳俊緯 何承祐</span></li>
+            <li><span style="font-weight: bold">化學</span> <span>劉兆安 林宥呈 王冠叡</span></li>
+            <li><span style="font-weight: bold">數學</span> <span>賴柏叡 高恒偉</span></li>
+            <li><span style="font-weight: bold">物辯</span> <span>何承祐 黃祈睿</span></li>
         </ul>
+
+    <h2>職位</h2>
+    <ul>
+        <li><span style="font-weight: bold;">管理員：</span>處理伺服器 ticket，協調伺服器等</li>
+        <li><span style="font-weight: bold;">公關：</span>經營 IG、處理電子郵件等。</li>
+        <li><span style="font-weight: bold;">講師：</span>假日時間分享任何 (合法的) 知識!</li>
+        <li><span style="font-weight: bold;">網頁管理：</span>維護網頁，定期更新資訊</li>
+        <a target="_blank" href="https://bit.ly/48D54C2"><strong>加入我們!!</strong></a>
+    </ul>
+    
     <h2>活動</h2>
     <ul class="filled-circle-list">
         <li><a href="https://bit.ly/45Y9AIX" target="_blank">西洋棋錦標賽</a></li>和嘉義高中西洋棋社的合作活動。<br>報名已截止，但仍歡迎觀戰!<br>相關內容請見<a href="https://bit.ly/3EXlYxI" target="_blank">Instagram</a>。
     </ul>
-    <script src="script.js"></script>
+    
+    <script>
+        showSlides(slideIndex);
+    </script>
 </body>
 </html>
