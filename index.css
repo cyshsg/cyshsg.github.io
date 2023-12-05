@@ -37,6 +37,7 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  background: #b3b3b3;
   width: 80%;
   left: 10%;
   margin: 30px 0;
@@ -45,8 +46,10 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  background: white;
   transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
 }
+
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -97,7 +100,7 @@
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
-  color: white;
+  color: #f5f5f5;
 }
 
 .row:after {
@@ -109,6 +112,7 @@
 /* Six columns side by side */
 .column {
   float: left;
+  background: #f5f5f5;
   width: 12.5%;
 }
 
